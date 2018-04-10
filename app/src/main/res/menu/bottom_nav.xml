@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_currency"
+        android:title="@string/currency"
+        android:icon="@drawable/ic_poll" />
+    <item android:id="@+id/menu_transactions"
+        android:title="@string/transactions"
+        android:icon="@drawable/ic_history" />
+    <item android:id="@+id/menu_converter"
+        android:title="@string/converter"
+        android:icon="@drawable/ic_transform" />
+</menu>

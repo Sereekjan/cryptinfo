@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CryptInfo</string>
+    <string name="currency">Курс</string>
+    <string name="transactions">Транзакции</string>
+    <string name="converter">Конвертер</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btc_1">1 <b>BTC</b> = 6789.11 USD</string>
+</resources>

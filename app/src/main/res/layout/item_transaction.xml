@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_type"
+                android:text="КУПЛЕНО"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPurchase"/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPurchaseSubTitle"
+                android:text="08/04/2018 12:21"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_gravity="right">
+            <TextView
+                android:id="@+id/tv_btc_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0,12345471 BTC"
+                android:textSize="18sp"
+                android:textColor="@color/colorPurchaseTitle"/>
+
+            <TextView
+                android:id="@+id/tv_btc_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 BTC = 1172,75 USD"
+                android:textColor="@color/colorPurchaseDark"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

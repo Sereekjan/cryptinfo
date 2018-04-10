@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color-->
+
+    <color name="colorPrimary">#1F2138</color>
+    <color name="colorPrimaryDark">#141527</color>
+    <color name="colorAccent">#E6D6ED</color>
+    <color name="colorPrimaryLight">#383c66</color>
+    <color name="colorPurchase">#42c919</color>
+    <color name="colorPurchaseSubTitle">#73c25b</color>
+    <color name="colorPurchaseTitle">#277310</color>
+    <color name="colorPurchaseDark">#1e590d</color>
+    <color name="colorSale">#ff3835</color>
+    <color name="colorSaleSubtitle">#ff7c7a</color>
+    <color name="colorSaleTitle">#9c0200</color>
+    <color name="colorSaleDark">#690200</color>
+</resources>
